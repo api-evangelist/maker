@@ -1,0 +1,39 @@
+generated: '2026-07-20'
+method: searched
+source: live probes of /.well-known/* and /llms.txt across Maker/Sky hosts
+note: >-
+  No machine-readable /.well-known/ discovery documents are published on the
+  Maker/Sky web hosts. makerdao.com/.well-known/security.txt returns 403
+  (present but access-restricted, not a retrievable disclosure document). The
+  one AI-discovery surface that does exist is /llms.txt on sky.money and
+  docs.makerdao.com (saved to llms/maker-llms.txt). No WellKnown catalog
+  pointer is wired because no document returned 200.
+hosts:
+  - host: https://makerdao.com
+    documents:
+      - {path: /.well-known/security.txt, status: 403}
+      - {path: /.well-known/openid-configuration, status: 404}
+      - {path: /.well-known/oauth-authorization-server, status: 404}
+      - {path: /.well-known/api-catalog, status: 404}
+      - {path: /.well-known/ai-plugin.json, status: 404}
+      - {path: /llms.txt, status: 404}
+  - host: https://developers.skyeco.com
+    documents:
+      - {path: /.well-known/security.txt, status: 404}
+      - {path: /.well-known/openid-configuration, status: 404}
+      - {path: /.well-known/oauth-authorization-server, status: 404}
+      - {path: /.well-known/api-catalog, status: 404}
+      - {path: /.well-known/ai-plugin.json, status: 404}
+      - {path: /llms.txt, status: 404}
+  - host: https://sky.money
+    documents:
+      - {path: /.well-known/security.txt, status: 404}
+      - {path: /.well-known/openid-configuration, status: 404}
+      - {path: /.well-known/api-catalog, status: 404}
+      - {path: /llms.txt, status: 200, file: ../llms/maker-llms.txt}
+  - host: https://docs.makerdao.com
+    documents:
+      - {path: /llms.txt, status: 200}
+  - host: https://chainlog.sky.money
+    documents:
+      - {path: /.well-known/security.txt, status: 404}

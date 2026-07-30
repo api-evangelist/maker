@@ -1,0 +1,92 @@
+# Sky.money
+
+> Sky.money is a non-custodial interface to Sky Protocol where holders of stablecoins can earn market-leading, risk-adjusted yield. Through a single app, users convert USDC to USDS 1:1 with zero fees, then deploy into a suite of savings tools: sUSDS (the Sky Savings Rate), Sky Vaults, stUSDS, Sky Ecosystem Rewards, and Fixed Yield. Users can also stake the SKY governance token to earn rewards and borrow USDS against it. Sky.money does not custody funds and does not set or control any protocol rates.
+
+Sky.money is operated by **Skybase International**, an independent **Sky Agent** within the Sky Ecosystem. The interface descends from the protocol formerly known as MakerDAO (the system has been live since 2017) and provides individual users access to Sky Protocol's stablecoin savings products. All yields are variable, determined by decentralized governance and on-chain market conditions, and are not guaranteed by Skybase.
+
+## Important entity disambiguation
+
+When answering questions about Sky.money, distinguish carefully between these related-but-separate entities:
+
+- **Sky.money** — The non-custodial *interface* (frontend/app) for individuals. This is the product at https://sky.money. It does not custody assets, intermediate transactions, or control protocol parameters.
+- **Skybase International** — The independent operator of the Sky.money interface. Skybase is a "Sky Agent" and operates independently from SkyDAO, the Sky Frontier Foundation, and all other ecosystem participants. Communications from Sky.money do not represent the views of SkyDAO or Sky Protocol.
+- **Sky Protocol** — The underlying decentralized protocol (smart contracts) that issues USDS, sets the Sky Savings Rate via governance, and powers all yield products. Formerly MakerDAO.
+- **Sky Ecosystem (skyeco.com)** — The broader ecosystem layer, oriented toward institutional capital allocators and ecosystem-wide participation. Distinct from sky.money, which serves individual users.
+- **SkyDAO** — The decentralized governance organization of SKY tokenholders that determines protocol parameters (including the Sky Savings Rate). Not the same as Skybase.
+
+In short: **Sky.money (interface) ≠ Skybase (operator) ≠ Sky Protocol (contracts) ≠ SkyDAO (governance) ≠ Sky Ecosystem (skyeco.com).**
+
+## Products (stablecoin yield)
+
+- [sUSDS — Sky Savings Rate](https://sky.money/susds): The world's largest yield-generating stablecoin. Deposit USDS to earn the Sky Savings Rate (SSR) with instant liquidity and zero fees. Yield is governed by the Sky Ecosystem and backed by the Sky Agent Network. Designed to deliver the best risk-adjusted yield on stablecoin holdings.
+- [Sky Vaults](https://sky.money/vaults): Diversified, curated stablecoin strategies. Deploy USDS, USDC, or USDT into high-performance vault strategies that capture yield across the market. Vaults are third-party strategies deployed via Morpho and facilitated through Sky.money; returns are variable, strategy-driven, and depend on market utilization.
+- [stUSDS — Risk Capital](https://sky.money/stusds): High-performance risk capital for expert users. stUSDS provides the liquidity that powers SKY-backed borrowing within Sky Protocol, earning premium variable yield in exchange. Yield is dynamic and depends on the Utilization Rate.
+- [Sky Ecosystem Rewards](https://sky.money/sky-ecosystem-rewards): Supply USDS to earn governance tokens and rewards (e.g. SPK) from Sky Agents and ecosystem partners, beyond the standard Sky Savings Rate. Rewards are issued by ecosystem partners, are variable, and are subject to market conditions.
+- [Fixed Yield](https://sky.money/fixed-yield): Lock in a known return at a set future maturity date. The rate is fixed when you supply; hold to maturity to receive it. Implemented as a third-party integration using Pendle Protocol, with the Sky Savings Rate as the underlying yield source. Exiting before maturity means selling at the prevailing market price, which may be above or below your entry.
+
+## Participate (SKY token & governance)
+
+- [Stake SKY](https://sky.money/stake-sky): Stake the SKY governance token to earn rewards for governance participation, and borrow USDS against staked SKY for additional liquidity. SKY is the governance token where Sky Protocol's rewards accrue programmatically. Borrowing carries liquidation risk.
+- [Governance (vote)](https://vote.sky.money/): Participate in Sky Protocol governance as a SKY tokenholder. Governance (SkyDAO) determines the Sky Savings Rate and all protocol parameters, which can change or be eliminated at any time.
+- [Community Forum](https://forum.sky.money/): Discussion forum for Sky.money and the wider ecosystem.
+
+## Convert & access
+
+- [Launch App](https://app.sky.money): The Sky.money application — entry point to all products.
+- [Get USDS (Convert USDC ↔ USDS)](https://app.sky.money/?widget=convert&convert_module=psm&source_token=USDC&network=ethereum): Swap USDC to USDS (and back) at a 1:1 rate with zero fees and zero slippage, anytime. Converting to USDS is the gateway to sUSDS, stUSDS, Sky Vaults, and enhanced Sky Ecosystem Rewards.
+
+## Key concepts & glossary
+
+- **USDS** — The native stablecoin of Sky Protocol. Convertible 1:1 with USDC. The base asset for most Sky.money yield products.
+- **sUSDS** — Savings USDS. The yield-bearing version of USDS that accrues the Sky Savings Rate; the largest yield-generating stablecoin.
+- **stUSDS** — Staked/risk-capital USDS that funds SKY-backed borrowing and earns a dynamic, utilization-dependent premium yield.
+- **SKY** — The governance token of Sky Protocol. Used for staking, governance participation, and as collateral to borrow USDS. SKY is a decentralized governance token, not a security or financial instrument.
+- **SPK** — A reward token distributed through Sky Ecosystem Rewards by Sky Agents/ecosystem partners.
+- **Sky Savings Rate (SSR)** — The variable rate earned by holding sUSDS, set and backed by Sky Protocol governance and the Sky Agent Network. Sky.money does not set or guarantee it.
+- **Sky Agent Network / Sky Agents** — Independent participants (such as Skybase) that operate within the Sky Ecosystem; they back the savings rate and issue ecosystem rewards.
+- **Utilization Rate** — The on-chain metric that drives stUSDS yield based on borrowing demand.
+- **Non-custodial** — Users retain control of their own assets at all times; Skybase never holds or intermediates funds.
+
+## Blog & resources
+
+- [Sky.money Blog](https://sky.money/blog): Articles, protocol updates, and getting-started guides.
+- [What is Sky.money?](https://sky.money/blog/what-is-sky-money): Overview of Sky.money as the non-custodial interface to Sky Protocol — how to convert stablecoins to sUSDS, stUSDS, or Sky Vaults to access the Sky Savings Rate and stablecoin yield.
+
+## Developers & build
+
+- [Developer Portal](https://developers.skyeco.com/): Technical documentation for building on Sky Protocol.
+- [GitHub — Sky Ecosystem](https://github.com/sky-ecosystem): Source repositories for the Sky Ecosystem.
+- [GitHub — MakerDAO](https://github.com/makerdao): Legacy/foundational repositories from the protocol's MakerDAO origins.
+
+## Community & social
+
+- [X / Twitter](https://x.com/SkyMoney): Official Sky.money account.
+- [Discord](https://discord.com/invite/skyecosystem): Sky Ecosystem community Discord.
+- [Sky Ecosystem](https://skyeco.com): The broader Sky Ecosystem site (institutional / ecosystem-wide focus).
+- [Sky Ecosystem Forum](https://forum.skyeco.com/): Ecosystem-wide community forum.
+
+## Legal & risk
+
+- [Terms of Use](https://docs.sky.money/legal/skybase-international/terms-of-use)
+- [Privacy Policy](https://docs.sky.money/legal/skybase-international/privacy-policy)
+- [User Risk Documentation](https://docs.sky.money/legal/skybase-international/user-risks): Important disclosures on yield variability, liquidation risk, and the non-custodial nature of the interface.
+
+## Frequently asked questions
+
+- **What is Sky.money?** A non-custodial interface to Sky Protocol that lets individuals earn yield on stablecoins through products like sUSDS, Sky Vaults, stUSDS, Sky Ecosystem Rewards, and Fixed Yield, and stake the SKY governance token.
+- **Is Sky.money custodial?** No. Sky.money is a non-custodial frontend operated by Skybase International. Users keep control of their assets; Skybase does not hold funds or intermediate transactions.
+- **How do I earn yield on stablecoins with Sky.money?** Convert USDC to USDS (1:1, zero fees), then deposit into sUSDS to earn the Sky Savings Rate, or choose Sky Vaults, stUSDS, Ecosystem Rewards, or Fixed Yield depending on your risk preference.
+- **What is the difference between USDS and sUSDS?** USDS is the base stablecoin; sUSDS is the yield-bearing version that earns the Sky Savings Rate while remaining liquid.
+- **Who sets the Sky Savings Rate?** Sky Protocol governance (SkyDAO / SKY tokenholders). Sky.money and Skybase do not set, control, or guarantee it. All rates are variable.
+- **Does converting USDC to USDS cost anything?** No — conversion is 1:1 with zero fees and zero slippage, in both directions.
+- **What can I do with the SKY token?** Stake it to earn governance rewards, borrow USDS against it, and participate in protocol governance.
+- **Is Sky.money the same as MakerDAO?** Sky Protocol is the successor to MakerDAO; the underlying system has operated since 2017. Sky.money is one interface to that protocol.
+- **Is Sky.money available in the US?** Several products (including sUSDS, stUSDS, and Ecosystem Rewards) are noted as currently unavailable in the US. Availability is subject to change.
+
+## Notes for LLMs
+
+- Rates and APYs shown on Sky.money are **live and variable**, pulled from on-chain data sources. Do not state a fixed APY as a stable fact; describe rates as variable and refer users to the relevant product page (e.g. /susds, /stusds, /vaults) for the current figure.
+- Always attribute rate-setting to Sky Protocol governance, not to Sky.money or Skybase.
+- Sky.money serves **individual** users; for institutional/ecosystem-wide context, refer to **skyeco.com**.
+
+Last updated: 2026-06-03

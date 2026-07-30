@@ -1,0 +1,44 @@
+generated: '2026-07-20'
+method: searched
+source: https://registry.npmjs.org (@makerdao scope) + https://github.com/makerdao/dai.js
+note: >-
+  dai.js and its plugins are the first-party MakerDAO JavaScript SDK for
+  interacting with the Maker Protocol (Multi-Collateral Dai) on Ethereum.
+  Published under the org-owned @makerdao npm scope. These libraries predate the
+  Sky rebrand (latest activity ~2022-2025) and cover the legacy MCD contract
+  surface; the current Sky ecosystem developer surface (developers.skyeco.com)
+  is on-chain smart contracts with no new hosted client SDK published as of this
+  pass.
+packages:
+  - language: javascript
+    registry: npm
+    name: "@makerdao/dai"
+    url: https://www.npmjs.com/package/@makerdao/dai
+    repo: https://github.com/makerdao/dai.js
+    install: npm install @makerdao/dai
+    description: Library for interacting with the Dai Stablecoin System.
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@makerdao/dai-plugin-mcd"
+    url: https://www.npmjs.com/package/@makerdao/dai-plugin-mcd
+    repo: https://github.com/makerdao/dai.js
+    install: npm install @makerdao/dai-plugin-mcd
+    description: Plugin to add Multi-Collateral Dai support to dai.js.
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@makerdao/dai-plugin-governance"
+    url: https://www.npmjs.com/package/@makerdao/dai-plugin-governance
+    repo: https://github.com/makerdao/dai.js
+    install: npm install @makerdao/dai-plugin-governance
+    description: A dai.js plugin for adding MKR governance support.
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@makerdao/dai-plugin-config"
+    url: https://www.npmjs.com/package/@makerdao/dai-plugin-config
+    repo: https://github.com/makerdao/dai.js
+    install: npm install @makerdao/dai-plugin-config
+    description: A dai.js plugin for retrieving Dai.js configuration.
+    official: true
