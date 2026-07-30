@@ -1,7 +1,16 @@
 aid: maker
 name: Maker
-description: Maker is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Maker (the Maker Protocol / MakerDAO) is a decentralized finance protocol on
+  Ethereum that issues the Dai and USDS stablecoins against on-chain collateral,
+  governed by holders of the MKR governance token. a16z crypto is a long-standing
+  backer, having acquired a significant share of the MKR supply. The protocol is
+  transitioning to the Sky ecosystem (Sky Protocol, USDS, and the SKY token). Its
+  developer surface is on-chain: Ethereum smart contracts documented for
+  integrators, a Chainlog contract registry, and a governance Vote Data API,
+  rather than a traditional hosted REST/OpenAPI product. This profile captures
+  Maker/Sky's public developer, documentation, and security surface for the API
+  Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/maker/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +18,64 @@ x-backed-by:
 - a16z
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- DeFi
+- Blockchain
+- Ethereum
+- Stablecoin
+- Smart Contracts
+- Cryptocurrency
+- Governance
+- Web3
+image: https://raw.githubusercontent.com/api-evangelist/maker/refs/heads/main/apis.yml
+common:
+- type: DomainSecurity
+  url: security/maker-domain-security.yml
+- type: Website
+  url: https://makerdao.com
+- type: Portal
+  url: https://developers.skyeco.com/
+- type: DeveloperPortal
+  url: https://developers.skyeco.com/
+- type: Documentation
+  url: https://docs.makerdao.com
+- type: GettingStarted
+  url: https://docs.makerdao.com/getting-started/maker-protocol-101
+- type: GitHubOrganization
+  url: https://github.com/sky-ecosystem
+- type: Blog
+  url: https://sky.money/blog
+- type: Support
+  url: https://forum.sky.money/
+- type: Packages
+  url: packages/maker-packages.yml
+- type: SDKs
+  url: packages/maker-packages.yml
+- type: LLMsTxt
+  url: llms/maker-llms.txt
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1
